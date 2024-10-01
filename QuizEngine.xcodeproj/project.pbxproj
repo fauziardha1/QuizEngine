@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC16D64B2CABFDD400598527 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16D64A2CABFDD400598527 /* Result.swift */; };
+		AC16D64D2CABFE0700598527 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16D64C2CABFE0700598527 /* Router.swift */; };
 		AC6BFDDE2C6477DF00954677 /* QuizEngine.docc in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFDDD2C6477DF00954677 /* QuizEngine.docc */; };
 		AC6BFDE42C6477DF00954677 /* QuizEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6BFDD92C6477DF00954677 /* QuizEngine.framework */; };
 		AC6BFDF42C64785000954677 /* FlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFDF32C64785000954677 /* FlowTest.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC16D64A2CABFDD400598527 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		AC16D64C2CABFE0700598527 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		AC6BFDD92C6477DF00954677 /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6BFDDD2C6477DF00954677 /* QuizEngine.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = QuizEngine.docc; sourceTree = "<group>"; };
 		AC6BFDE32C6477DF00954677 /* QuizEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +77,8 @@
 			children = (
 				AC6BFDDD2C6477DF00954677 /* QuizEngine.docc */,
 				AC6BFDF52C6479C200954677 /* Flow.swift */,
+				AC16D64A2CABFDD400598527 /* Result.swift */,
+				AC16D64C2CABFE0700598527 /* Router.swift */,
 			);
 			path = QuizEngine;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC16D64D2CABFE0700598527 /* Router.swift in Sources */,
+				AC16D64B2CABFDD400598527 /* Result.swift in Sources */,
 				AC6BFDDE2C6477DF00954677 /* QuizEngine.docc in Sources */,
 				AC6BFDF62C6479C200954677 /* Flow.swift in Sources */,
 			);
